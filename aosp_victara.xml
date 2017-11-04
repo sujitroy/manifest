@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github remote -->
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <!-- AOSP-VICTARA remote -->
+  <remote name="aosp-victara"
+          revision="oreo"
+          fetch="https://github.com/aosp-victara/" />
+
+  <!-- general -->
+  <project path="build/make" name="android_build" remote="aosp-victara" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="aosp-victara">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="build/kati" name="android_build_kati" remote="aosp-victara" />
+  <project path="manifest" name="android_manifest" remote="aosp-victara" />
+  <project path="bionic" name="android_bionic" remote="aosp-victara" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="aosp-victara" />
+
+  <!-- system -->
+  <project path="system/vold" name="android_system_vold" remote="aosp-victara" />
+  <project path="system/core" name="android_system_core" remote="aosp-victara" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="aosp-victara" />
+
+  <!-- sepolicy -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="aosp-victara" />
+
+  <!-- frameworks -->
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="aosp-victara" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="aosp-victara" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="aosp-victara" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="aosp-victara" />
+
+  <!-- hardware -->
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="aosp-victara" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="aosp-victara" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="aosp-victara" />
+
+</manifest>
