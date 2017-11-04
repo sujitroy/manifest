@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/aosp-victara/android_manifest -b oreo
+repo init -u https://github.com/aosp-victara/manifest -b oreo
 
 # Sync
 repo sync -c -jx --force-sync --no-clone-bundle --no-tags
