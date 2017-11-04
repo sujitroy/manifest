@@ -72,14 +72,17 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/bt" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/ril" />
