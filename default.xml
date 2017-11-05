@@ -624,6 +624,6 @@
   <include name="remove.xml" />
 
   <!-- Add all tracked AOSP repos -->
-  <include name="aosp_victara.xml" />
+  <include name="pixel.xml" />
 
 </manifest>
