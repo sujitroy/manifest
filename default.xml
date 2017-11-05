@@ -626,4 +626,7 @@
   <!-- Add all tracked AOSP repos -->
   <include name="pixel.xml" />
 
+  <!-- Open gapps -->
+  <include name="gapps.xml" />
+
 </manifest>
