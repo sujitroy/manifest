@@ -129,6 +129,7 @@
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/WallpaperPicker" />
+  <remove-project name="platform/packages/apps/MusicFX" />
 
   <!-- Toolchain repos -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
