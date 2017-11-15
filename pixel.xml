@@ -60,7 +60,7 @@
   <project path="system/media" name="system_media" remote="pixel" />
   <project path="system/bt" name="system_bt" remote="pixel" />
   <project path="system/nfc" name="system_nfc" remote="pixel" />
-  <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-15.0" />
+  <project path="system/qcom" name="system_qcom" remote="pixel" />
 
   <!-- sepolicy -->
   <project path="device/qcom/common" name="device_qcom_common" remote="pixel" />
