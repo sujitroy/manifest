@@ -106,6 +106,7 @@
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="pixel" />
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="pixel" />
+  <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
