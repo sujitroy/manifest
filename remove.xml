@@ -49,6 +49,7 @@
   <!-- External repos -->
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/e2fsprogs" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/intel/audio_media" />

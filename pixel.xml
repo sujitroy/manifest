@@ -52,6 +52,9 @@
   <project path="external/selinux" name="external_selinux" remote="pixel" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="lineage-15.0" />
   <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="pixel" />
+  <project path="external/exfat" name="android_external_exfat" remote="pixel" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="pixel" />
 
   <!-- system -->
   <project path="system/vold" name="system_vold" remote="pixel" />
