@@ -47,7 +47,7 @@
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="rr"/>
   <project path="external/DUtils" name="external_DUtils" remote="rr" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="rr" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="rr" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="sr" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="rr" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="rr" />
@@ -184,6 +184,7 @@
   <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" groups="pdk" />
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
+  <project path="external/giflib" name="LineageOS_external/giflib" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="LineageOS/android_frameworks_compile_slang" groups="pdk" />
@@ -382,7 +383,6 @@
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" remote="aosp" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" remote="aosp" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" />
-  <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" remote="aosp" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" remote="aosp" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
