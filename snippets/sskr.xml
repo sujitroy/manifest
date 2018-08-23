@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="sskr"
+           fetch="https://github.com/sujitoy"
+           revision="aosip" />
+
+  <project path="vendor/aosip" name="vendor_aosip" remote="sskr" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="sskr" />
+
+
+</manifest>
